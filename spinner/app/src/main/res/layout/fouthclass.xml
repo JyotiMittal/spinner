@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/example">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXPERIMENTS"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:textColor="#FF0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:text="Find out why leaves change colour?"
+            android:textColor="#fff8f4ff" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potato Battery"
+            android:textColor="#fff8f4ff" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiment 3"
+            android:textColor="#fff8f4ff" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClear"
+            android:text="Clear " />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSubmit"
+            android:text="Submit" />
+    </LinearLayout>
+
+</LinearLayout>

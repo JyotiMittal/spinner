@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jyoti.physicsproject" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!--For different standards -->
+        <activity
+            android:name="com.example.jyoti.physicsproject.ThirdClassActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.FourthClassActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.Experiment4A"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.Experiment4A2"
+            android:label="PhysicsProject">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.Experiment4A3"
+            android:label="PhysicsProject">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.Experiment4A4"
+            android:label="PhysicsProject">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.Experiment4B"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.jyoti.physicsproject.FifthClassActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <!--Splash Screen -->
+        <activity
+            android:name="com.example.jyoti.physicsproject.SplashScreen"
+            android:label="PhysicsProject"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Main Activity-->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        <!--    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

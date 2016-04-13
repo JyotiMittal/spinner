@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/example">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find out why leaves change colour?"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:textColor="#FF0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_leaves_changing_color"
+        android:textSize="15dp"
+        android:textColor="#fff8f4ff"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What you'll need:"
+        android:textStyle="bold|italic"
+        android:textSize="15dp"
+        android:textColor="#FF0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/requirement4a"
+        android:textSize="15dp"
+        android:textColor="#fff8f4ff"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+
+        <Button
+            android:id="@+id/previousBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onPrevious"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onNext"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>
